@@ -1,0 +1,17 @@
+DYNAMIC PROGRAMMING
+    - Problems asking for optimization and that ask to minize or maximize or "to count the number of way to do" mostly goes with DP.
+    - Two approaches 1) Bottom-up Approach 2) Top-Down Approach
+    - We can minimize the space using space trick in C++ for both approaches (check page no: 103 (Comp. Programming))
+    - Check all the Classics Sum of DP listed Here and also in book.
+        - Max 1-D Range Sum (O(n) using DP else n^2)
+        - Max 2-D Range Sum (O(n^4) using DP else n^6)
+        - LIS(Longest Increasing SubSequence) -- ( can be solved using DP in n^2 or using greedy+D&C in nlogk(check in book))
+        - 0/1 Knapsack problem 
+        - Travelling Salesman problem
+    - Exercise 
+        - UVa108(Maximum sum in 2D): Doing this in n^3 rather than n^4.
+
+
+
+    TRICKS:
+    -(Jay Kadane's Trick in 1D/2D max range sum: Restarting from zero is always better than continuing from negative running sum.)
