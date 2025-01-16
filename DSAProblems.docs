@@ -15,3 +15,6 @@ DYNAMIC PROGRAMMING
 
     TRICKS:
     -(Jay Kadane's Trick in 1D/2D max range sum: Restarting from zero is always better than continuing from negative running sum.)
+
+
+    - SOLVE DP PROBLEMS AS MUCH AS YOU CAN BECAUSE THIS WILL HELP YOU REACH TOP OF ICEBERG.
