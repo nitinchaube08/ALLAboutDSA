@@ -1,4 +1,4 @@
-DYNAMIC PROGRAMMING
+A) DYNAMIC PROGRAMMING
     - Problems asking for optimization and that ask to minize or maximize or "to count the number of way to do" mostly goes with DP.
     - Two approaches 1) Bottom-up Approach 2) Top-Down Approach
     - We can minimize the space using space trick in C++ for both approaches (check page no: 103 (Comp. Programming))
@@ -18,3 +18,23 @@ DYNAMIC PROGRAMMING
 
 
     - SOLVE DP PROBLEMS AS MUCH AS YOU CAN BECAUSE THIS WILL HELP YOU REACH TOP OF ICEBERG.
+
+
+B) GRAPH
+    -Graph Traversal:
+        - DFS(Depth First Search) : Rus in O(V+E) and O(V^2) for adjacency list and matrix | O(V*E) for EDGE List
+            -Dominator problem
+        - BFS(Breadth First Search): Rus in O(V+E) and O(V^2) for adjacency list and matrix | O(V*E) for EDGE List
+        
+    - Connected Components:
+        - BFS and DFS can be used to find connected components of a graph. Even union find can also be used for the same.
+        - Exercise: UVa 459 - Graph Connectivity Problem.
+    - Topological Sort:
+        - Using DFS (By Robert Andre Tarjan)
+        - Using BFS (By Kahn's )
+    -BiPartite Graph:
+        - Graph haing alternate edges diffferent colored. No vertex of source should have the same color.
+        - Canbe done using BFS as well as DFS.
+    - Articulation Point:
+        - An ‘Articulation Point’ is defined as a vertex in a graph G whose removal (all edges incident to this vertex are also removed) disconnects G.
+        - A graph without articulation point is called BiConnected.
